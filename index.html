@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+<head>
+    <meta name="description" content="Meu Portfólio">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlie the unicorn</title>
+</head>
+
+<body>
+    <header>
+
+        <div id="header">
+
+            <div id="titulo">
+                <h1>Charlie the Unicorn</h1>
+            </div>
+
+            <div id="menu">
+
+                <!-- Menu da Página (nav) -->
+                <nav>
+                    <!-- Marcadores não ordenados -->
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+
+                <div id="validador">
+
+                    <h2>O que você acha do Unicórnio Charlie?</h2>
+                    <input type="radio" name="cor" value="amarelo">
+                    <label for="amarelo">Gosto</label><br>
+                    <input type="radio" name="cor" value="vermelho">
+                    <label for="vermelho">Não gosto</label><br>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="home">
+
+
+            <article id="home_texto">
+                <h4>Charlie o Unicórnio</h4>
+                <p>Charlie the Unicorn é um curta-metragem de comédia de animação em Flash de 2005 e vídeo viral criado por Jason Steele da produtora de cinema independente 
+                FilmCow em Orlando , Flórida . 
+                O curta acompanha Charlie, um unicórnio letárgico e pessimista , que é levado por um unicórnio azul e um unicórnio rosa em uma aventura até a 
+                mágica Candy Mountain. Porém, a viagem acaba sendo uma farsa, e Charlie tem seu rim roubado pelos outros dois unicórnios.</p>
+
+                <a href="https://www.youtube.com/embed/CsGYh8AacgY?si=Y-2NUeRlYN8Lct3C">Primeiro episódio</a>
+            </article>
+
+            <article id="home_imagem">
+                <img width="60%" src="assets/Enxsj-sWEAM11dT.jpeg"
+                    alt="3 unicórnios, de cores rosa, branco e azul em uma floresta">
+            </article>
+
+        </section>
+
+        <section id="about">
+
+        </section>
+
+        <section id="contato">
+
+            <article id="redes_sociais">
+                <h4>Contact Me</h4>
+
+                <div id="icones_redes_sociais">
+                    <a href="https://www.linkedin.com/in/daniele-campos-ferreira/">
+                        <img src="https://img.icons8.com/?size=256&id=447&format=png" alt="LinkedIn" />
+                    </a>
+                </div>
+            </article>
+
+            <form action="" method="POST">
+                <input type="hidden" name="_next" value="">
+                <input type="hidden" name="_captcha" value="false">
+
+                <label for="nome"><strong>Nome: </strong></label>
+                <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+
+                <label for="email"><strong>Email: </strong></label>
+                <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+
+                <label for="subject"><strong>Assunto: </strong></label>
+                <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+
+                <label for="message"><strong>Mensagem: </strong></label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>       
+        <p> Feito por Dani  &copy;</p>
+    </footer>
+</body>
+
+</html>
