@@ -1,0 +1,36 @@
+.contato{
+    background: #d4ffcb ;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    background-color: #ffcfff;
+    flex-direction: column;
+    padding: 90px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    border-radius: 8px
+}
+
+.formulario input, textarea{
+    display: block;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    width: 500px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.botao{
+    border: none;
+}
+
+.formulario label{
+    margin-bottom: 10px;
+}

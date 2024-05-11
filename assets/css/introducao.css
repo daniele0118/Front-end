@@ -1,0 +1,35 @@
+.introducao-bg{
+    background: #d4ffcb;
+}
+
+.introducao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.introducao img{
+    height: 100%;
+    width: 700px;
+    border-radius: 4px;
+    margin-left: 70px ;
+}
+
+.introducao-conteudo{
+    align-self: center;
+    padding: 100px;
+}
+
+.introducao-conteudo p{
+    margin-bottom: 40px;
+}
+
+.botao{
+    display: inline-block;
+    padding: 16px 32px;
+    background: #2C8C19;
+    text-align: center;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: white;
+}

@@ -5,82 +5,85 @@
     <meta name="description" content="Meu Portfólio">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Charlie the unicorn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header>
 
-        <div id="header">
-
-            <div id="titulo">
-                <h1>Charlie the Unicorn</h1>
-            </div>
-
+        <!-- <div class="header">
             <div id="menu">
-
-                <!-- Menu da Página (nav) -->
-                <nav>
-                    <!-- Marcadores não ordenados -->
+                <div class="titulo">
+                    <h1>Charlie the Unicorn</h1>
+                </div>
+                <nav class="nav">
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#contato">Contato</a></li>
                     </ul>
                 </nav>
-
-                <div id="validador">
-
+                <div class="validador">
                     <h2>O que você acha do Unicórnio Charlie?</h2>
-                    <input type="radio" name="cor" value="amarelo">
-                    <label for="amarelo">Gosto</label><br>
-                    <input type="radio" name="cor" value="vermelho">
-                    <label for="vermelho">Não gosto</label><br>
-
-                </div>
-
+                    <input type="radio" id="sim" name="opiniao" value="Gosto">
+                    <label for="sim">Gosto</label><br>
+                    <input type="radio" id="nao" name="opiniao" value="Não gosto">
+                    <label for="nao">Não gosto</label><br>
+                </div>                
             </div>
+        </div>
+    </header> -->
+
+    <header class="header-bg">
+        <div class="header container">
+          <a>
+            <h1>Charlie the Unicorn</h1>
+          </a>
+          <nav aria-label="primaria">
+            <ul class="header-menu">
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </nav>
+          <!-- <div class="validador">
+            <h2>O que você acha do Unicórnio Charlie?</h2>
+            <input type="radio" id="sim" name="opiniao" value="Gosto">
+            <label for="sim">Gosto</label><br>
+            <input type="radio" id="nao" name="opiniao" value="Não gosto">
+            <label for="nao">Não gosto</label><br>
+        </div> -->
         </div>
     </header>
 
-    <main>
+    <main class="introducao-bg">
 
-        <section id="home">
+    <div class="introducao container">
+        <div class="introducao-conteudo">
+            <article>
+                <h1><strong>Charlie o Unicórnio</strong></h1>
+                    <p>Charlie the Unicorn é um curta-metragem de comédia de animação em Flash de 2005 e um vídeo viral criado por Jason Steele da produtora de cinema independente FilmCow em Orlando,
+                                Flórida. O curta acompanha Charlie, um unicórnio letárgico e pessimista, que é levado por um unicórnio azul e um unicórnio rosa em uma aventura na mágica Candy Mountain. Porém, a viagem acaba sendo uma farsa, e Charlie tem seu rim roubado pelos outros dois unicórnios.
+                                Steele criou o vídeo originalmente como presente de aniversário para sua mãe; 
+                                o vídeo foi parcialmente creditado a ela e lançado por ela sob o nome de usuário TypeQueen no Newgrounds, onde sua popularidade cresceu rapidamente. 
+                                O vídeo foi posteriormente carregado no YouTube por Geoff Swanson, onde ganhou grande audiência e continuou a aumentar em popularidade. Uma linha de merchandising foi produzida posteriormente, 
+                                bem como quatro sequências e uma série de paródias intitulada Charlie teh Unicron. Os três primeiros episódios da série foram lançados em DVD em 2009 como parte da The FilmCow Master Collection.</p>
+                            </article>                
+                            <a class="botao" href="https://www.youtube.com/embed/CsGYh8AacgY?si=Y-2NUeRlYN8Lct3C"><strong> Primeiro episódio </strong></a>
+        </div>
+                        <img src="assets/Enxsj-sWEAM11dT.jpeg"
+                        alt="3 unicórnios, de cores rosa, branco e azul em uma floresta">
+    </div>
 
+            <div class="contato">
 
-            <article id="home_texto">
-                <h4>Charlie o Unicórnio</h4>
-                <p>Charlie the Unicorn é um curta-metragem de comédia de animação em Flash de 2005 e vídeo viral criado por Jason Steele da produtora de cinema independente 
-                FilmCow em Orlando , Flórida . 
-                O curta acompanha Charlie, um unicórnio letárgico e pessimista , que é levado por um unicórnio azul e um unicórnio rosa em uma aventura até a 
-                mágica Candy Mountain. Porém, a viagem acaba sendo uma farsa, e Charlie tem seu rim roubado pelos outros dois unicórnios.</p>
-
-                <a href="https://www.youtube.com/embed/CsGYh8AacgY?si=Y-2NUeRlYN8Lct3C">Primeiro episódio</a>
-            </article>
-
-            <article id="home_imagem">
-                <img width="60%" src="assets/Enxsj-sWEAM11dT.jpeg"
-                    alt="3 unicórnios, de cores rosa, branco e azul em uma floresta">
-            </article>
-
-        </section>
-
-        <section id="about">
-
-        </section>
-
-        <section id="contato">
-
-            <article id="redes_sociais">
-                <h4>Contact Me</h4>
-
-                <div id="icones_redes_sociais">
-                    <a href="https://www.linkedin.com/in/daniele-campos-ferreira/">
-                        <img src="https://img.icons8.com/?size=256&id=447&format=png" alt="LinkedIn" />
-                    </a>
-                </div>
-            </article>
-
-            <form action="" method="POST">
+            <form action="" method="POST" class="formulario">
                 <input type="hidden" name="_next" value="">
                 <input type="hidden" name="_captcha" value="false">
 
@@ -96,13 +99,19 @@
                 <label for="message"><strong>Mensagem: </strong></label>
                 <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
 
-                <button type="submit">Enviar</button>
+                <button class="botao" type="submit">Enviar</button>
             </form>
-        </section>
+  
+        </div>
     </main>
 
-    <footer>       
-        <p> Feito por Dani  &copy;</p>
+    <footer class="footer">       
+        <p> Feito por Dani 🧐</p>
+            <div class="redes_sociais">
+                <a href="https://www.linkedin.com/in/daniele-campos-ferreira/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/daniele0118"><i class="fa-brands fa-github fa-2x"></i></a>
+                
+            </div>  
     </footer>
 </body>
 
